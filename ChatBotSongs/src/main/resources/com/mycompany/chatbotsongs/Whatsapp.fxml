@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.chatbotsongs.WhatsappController">
+   <children>
+      <VBox fx:id="vboxWhatsapp1" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: lightblue;" />
+      <VBox fx:id="vboxWhatsapp2" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <VBox fx:id="subPantalla1" prefHeight="362.0" prefWidth="100.0" />
+         </children>
+      </VBox>
+      <VBox fx:id="vboxWhatsapp3" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: lightblue;" />
+   </children>
+</HBox>
